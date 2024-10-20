@@ -1,6 +1,6 @@
 /* QR閉鎖のお詫びページのCSS */
 
-body{
+ body{
   background-color:black;
   color:white;
   font-style: italic;
@@ -10,7 +10,7 @@ body{
   background-color:rgba(0,0,0,0.5);
   background-blend-mode: lighten;
   background-position: center;
-}
+} 
 
 .container-fluid {
   background-color: rgba(0, 0, 0, 0.5); /* 黒で半透明のカバ*/
