@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" width="480, user-scalable=no, maximum-scale=0.6667">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Natural Red Page</title>
     <style>
@@ -18,99 +18,273 @@
         body{
             background-color: #000;
         }
-        img{
-            max-width: 100%;
-            height: auto;
+        .img-responsive{
+            width: 250px;
+            height: 100%;
         }
         hr{
             color: white;
         }
+        .nav{
+            color: white;
+            text-transform: uppercase;
+            font-size: larger;
+            font-weight:lighter;
+        }
+        .navbar{
+            font-family: serif;
+            font-size: italic;
+        }
+        .details{
+            color: white;
+            font-family: serif;
+            font-size: italic;
+        }
+        .price{
+            text-align: end;
+        }
     </style>
 </head>
-<body style="padding-top: 65px">
-    <nav class="navbar navbar-expand navbar-dark fixed-top bg-dark p-0">
-        <a href="index.html" class="navbar-brand mt-2">
-            <h3 class="h1" style="padding-left: 50px"><button class="btn btn-outline-light p-2 m-0">Back</button></h3>
-        </a>
-        <div class="nav-items m-auto">    
-            <div class="natural-red navbar-brand pt-0 mt-3 ml-0 mb-0 mr-0" style="padding-left: auto" >
-                <h1> natural red </h1>
-            </div>  
+<body style="padding-top: 170px">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark  fixed-top ">
+        <a class="navbar-brand" href="index.html" style="margin-left: 20px;"><button class="btn btn-outline-light btn-lg"><div class="display-1 mt-2 pb-2">Back</div></button></a>
+        <div class="collapse navbar-collapse justify-content-start">
+            <ul class="navbar-nav">
+                
+                <li class="nav-item-2 pt-1" style="margin-left: 30px">
+                    <div class="nav"><div class="display-1"> natural red</div></div>
+                </li>
+               
+            </ul>
         </div>
     </nav>
 
     <div class="container">
-        <div class="container">
-            <!-- 1 -->
-            <div class="images-1">
-                <img src="">
+        <!-- 1 -->
+<!--         <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-1 text-center">
+                    <img src="16-img-Natural-red/1.UnicoZero.png" class="img-responsive">
+                </div>
             </div>
-        <hr>
+            <div class="col-8 text-center text-capitalize">
+                <div class="details">
+                    <div class="flags">
+                        <img src="00-flags/Australia.jpg" alt="画像のサンプル" width="150" height="95">
+                    </div>
+                    <div class="production area mt-3">
+                        <h1> australia adelaide hills </h1>
+                    </div>
+                    <div class="vintage mt-4">
+                        <h1> 2019 </h1>
+                    </div>
+                    <div class="english-winename">
+                        <h1> unico zero truffle hound </h1>
+                    </div>
+                    <div class="japanese-winename mb-4">
+                        <h1> ウニコ ゼロ トリュフ ハウンド </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h2> barbera </h2>
+                        <h2> nebbiolo </h2>
+                    </div>
+                    <div class="price m-auto">
+                        <h1>¥8,000</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr> -->
+       
         <!-- 2 -->
-            <div class="images-2">
-                <img src="">
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-2 text-center">
+                    <img src="16-img-Natural-red/2.Amoise.png" class="img-responsive">
+                </div>
             </div>
-        <hr>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="flags">
+                        <img src="00-flags/Newzealand.jpeg" alt="画像のサンプル" width="150" height="95">
+                    </div>
+                    <div class="production area mt-3">
+                        <h1> New zealand / hawke's bay </h1>
+                    </div>
+                    <div class="vintage m-auto mt-4">
+                        <h1> 2021 </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1> amoise / gamey </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> アムワーズ / ガメイ </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1> gamey </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1>¥10,000</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr> 
+   
         <!-- 3 -->
-            <div class="images-3">
-                <img src="">
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-3 text-center">
+                    <img src="16-img-Natural-red/3.Langhe Rosso Neh!.png" class="img-responsive">
+                </div>
             </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="flags">
+                        <img src="00-flags/Italy.jpg" alt="画像のサンプル" width="150" height="95">
+                    </div>
+                    <div class="production area mt-3">
+                        <h1> italy / plemonte </h1>
+                    </div>
+                    <div class="vintage m-auto mt-4">
+                        <h1> 2018 </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h2> langhe rosso neh! punset </h2>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> ランゲ ロッソ ネ！ プンセット </h1>
+                        <h1> ドルチェット バルベーラ ネッビオーロ </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h3> dolcetto </h3>
+                        <h3> barbera </h3>
+                        <h3> nebbiolo </h3>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥7,000 </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
         <hr>
+            
         <!-- 4 -->
-            <div class="images-4">
-                <img src="">
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-4 text-center">
+                    <img src="16-img-Natural-red/4.Nerello Mascalese.png" class="img-responsive">
+                </div>
             </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="flags">
+                        <img src="00-flags/Italy.jpg" alt="画像のサンプル" width="150" height="95">
+                    </div>
+                    <div class="production area mt-3">
+                        <h1> italy / sicilia </h1>
+                    </div>
+                    <div class="vintage m-auto mt-4">
+                        <h1> 2019 </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h3> due terre wines / nerello mascalese </h3>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> ドゥエ テッレ ワインズ </h1>
+                        <h1> ネレッロマスカレーゼ </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1> nerello mascalese </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥7,000 </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
         <hr>
+        
         <!-- 5 -->
-            <div class="images-5">
-                <img src="">
+<!--         <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-5 text-center">
+                    <img src="16-img-Natural-red/5.Ferdinando.png" class="img-responsive">
+                </div>
             </div>
-        <hr>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="flags">
+                        <img src="00-flags/Italy.jpg" alt="画像のサンプル" width="150" height="95">
+                    </div>
+                    <div class="production area mt-3">
+                        <h1> italy / piemonte </h1>
+                    </div>
+                    <div class="vintage m-auto mt-4">
+                        <h1> 2019 </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h3> langhe rosso principiano ferdinando </h3>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h2> ランゲ ロッソ プリンチピアーノ フェルディナンド</h2>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1> slarina </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥8,000 </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr> -->
+            
         <!-- 6 -->
-            <!-- <div class="images-6">
-                <img src="">
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-6 text-center">
+                    <img src="16-img-Natural-red/6.Léon Barral.png" class="img-responsive">
+                </div>
             </div>
-        <hr> -->
-        <!-- 7 -->
-            <!-- <div class="images-7">
-                <img src="">
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="flags">
+                        <img src="00-flags/France.jpg" alt="画像のサンプル" width="150" height="95">
+                    </div>
+                    <div class="production area mt-3">
+                        <h1> france / languedoc </h1>
+                    </div>
+                    <div class="vintage m-auto mt-4">
+                        <h1> 2016 </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h3> domaine léon barral faugéres valiniére </h3>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> ドメーヌ レオン バラル ヴァリニエール </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h2> mourvédre </h2>
+                        <h2> syrah </h2>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥15,000</h1>
+                    </div>
+                </div>
+            
             </div>
-        <hr> -->
-        <!-- 8 -->
-            <!-- <div class="images-8">
-                <img src="">
-            </div>
-        <hr> -->
-        <!-- 9 -->
-            <!-- <div class="images-9">
-                <img src="">
-            </div>
-        <hr> -->
-        <!-- 10 -->
-            <!-- <div class="images-10">
-                <img src="">
-            </div>
-        <hr> -->
-        <!-- 11 -->
-            <!-- <div class="images-11">
-                <img src="">
-            </div>
-        <hr> -->
-        <!-- 12 -->
-            <!-- <div class="images-12">
-                <img src="">
-            </div>
-        <hr> -->
-        <!-- 13 -->
-            <!-- <div class="images-13">
-                <img src="">
-            </div>
-        <hr> -->
-        <!-- 14 -->
-            <!-- <div class="images-14">
-                <img src="">
-            </div>
-        <hr> -->
+        </div>
+        <hr>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
     </div>
     
 </body>

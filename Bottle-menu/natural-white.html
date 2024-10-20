@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" width="480, user-scalable=no, maximum-scale=0.6667">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Natural White Page</title>
 
@@ -19,66 +19,271 @@
         body{
             background-color: #000;
         }
-        img{
-            max-width: 100%;
-            height: auto;
-        }
         hr{
             color: white;
+        }
+        .nav{
+            color: white;
+            text-transform: uppercase;
+            font-size: larger;
+            font-weight:lighter;
+        }
+        .navbar{
+            font-family: serif;
+            font-size: italic;
+        }
+        .img-responsive{
+            width: 250px;
+            height: 100%;
+        }
+        .details{
+            color: white;
+            font-family: serif;
+            font-size: italic;
+        }
+        .price{
+            text-align: end;
         }
     </style>
 
 </head>
-<body style="padding-top: 65px">
-    <nav class="navbar navbar-expand navbar-dark fixed-top bg-dark p-0">
-        <a href="index.html" class="navbar-brand mt-2">
-            <h3 class="h1" style="padding-left: 50px"><button class="btn btn-outline-light p-2 m-0">Back</button></h3>
-        </a>
-        <div class="nav-items m-auto">    
-            <div class="natural-white navbar-brand pt-0 mt-3 ml-0 mb-0 mr-0" style="padding-left: auto" >
-                <h1> natural white </h1>
-            </div>  
+<body style="padding-top: 170px">
+   
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark  fixed-top ">
+        <a class="navbar-brand" href="index.html" style="margin-left: 20px;"><button class="btn btn-outline-light btn-lg"><div class="display-1 mt-2 pb-2">Back</div></button></a>
+        <div class="collapse navbar-collapse justify-content-start">
+            <ul class="navbar-nav">
+                
+                <li class="nav-item-2 pt-1" style="margin-left: 30px">
+                    <div class="nav"><div class="display-1"> natural white</div></div>
+                </li>
+               
+            </ul>
         </div>
     </nav>
 
-    <!-- 1 -->
-    <div class="container">
+    <div class="container-fluid">
         <!-- 1 -->
-        <div class="images-1">
-            <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/11-img-Natual-white/1.Amoise.png">
+      <!--  <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-1 text-center mb-5">
+                    <img src="11-img-Natual-white/1.Amoise.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize">
+                <div class="details">
+                    <div class="flags">
+                        <img src="00-flags/Newzealand.jpeg" width="150" height="95">
+                    </div>
+                    <div class="production area mt-3">
+                        <h1> new zealand / hawke's bay </h1>
+                    </div>
+                    <div class="vintage mt-4">
+                        <h1> 2021 </h1>
+                    </div>
+                    <div class="english-winename">
+                        <h1> amoise </h1>
+                    </div>
+                    <div class="japanese-winename mb-5">
+                        <h1> アムワーズ </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1> chenin blanc </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1>¥9,000</h1>
+                    </div>
+                </div>
+             </div>
         </div>
-    <hr>
-    <!-- 2 -->
-        <!-- <div class="images-2">
-            <img src="">
+        <hr>
+    -->
+        <!-- 2 -->
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-2 text-center mb-5">
+                    <img src="11-img-Natual-white/2.Beech-Worth.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="flags">
+                        <img src="00-flags/Australia.jpg" width="150" height="95">
+                    </div>
+                    <div class="production area mt-3">
+                        <h1> australia / upper yarra valley </h1>
+                    </div>
+                    <div class="vintage m-auto mt-4">
+                        <h1> 2021 </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1> jamsheed / beech worth roussanne </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1>ジャムシード / ビーチ ワース ルーサンヌ </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1> roussanne </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1>¥13,000</h1>
+                    </div>
+                </div>
+            </div>
         </div>
-    <hr> -->
-    <!-- 3 -->
-        <div class="images-3">
-            <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/11-img-Natual-white/3.Jamsheed Beech Worth.png">
+        <hr>
+
+        <!-- 3 -->
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-3 text-center mb-5">
+                    <img src="11-img-Natual-white/3.Mirabel-BIO.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="flags">
+                        <img src="00-flags/France.jpg" width="150" height="95">
+                    </div>
+                    <div class="production area mt-3">
+                        <h1> france / rhone </h1>
+                    </div>
+                    <div class="vintage m-auto mt-4">
+                        <h1> 2019 </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1> coteaux de l'Ardeche viognier mirabel BIO </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> コトー ド ラルディッシュ ヴィオニエ </h1>
+                        <h1> ミラベル ビオ </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1> viognier </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥8,000 </h1>
+                    </div>
+                </div>
+            </div>
         </div>
-    <hr>
-    <!-- 4 -->
-        <!-- <div class="images-4">
-            <img src="">
+        <hr>
+
+        <!-- 4 -->
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-4 text-center mb-5">
+                    <img src="11-img-Natual-white/4.Les-Loges.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="flags">
+                        <img src="00-flags/France.jpg" width="150" height="95">
+                    </div>
+                    <div class="production area mt-3">
+                        <h1> france / loire </h1>
+                    </div>
+                    <div class="vintage m-auto mt-4">
+                        <h1> 2019 </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1> les loges </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> レ ロージュ </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1> melon de bourgogne </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥9,000 </h1>
+                    </div>
+                </div>
+            </div>
         </div>
-    <hr> -->
-    <!-- 5 -->
-        <div class="images-5">
-            <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/11-img-Natual-white/5.Coteaux de l'Ardeche Mirabel BIO.png">
+        <hr>
+        
+        <!-- 5 -->
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-5 text-center mb-5">
+                    <img src="11-img-Natual-white/5.Marcel-Deiss.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="flags">
+                        <img src="00-flags/France.jpg" width="150" height="95">
+                    </div>
+                    <div class="production area mt-3">
+                        <h1> france / alsace </h1>
+                    </div>
+                    <div class="vintage m-auto mt-4">
+                        <h1> 2020 </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h2> marcel deiss alsace complantation nature </h2>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> マルセル ダイス </h1>
+                        <h1> アルザス コンプランタシオン ナチュール </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1> 13 varieties </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥10,000 </h1>
+                    </div>
+                </div>
+            </div>
         </div>
-    <hr>
-    <!-- 6 -->
-        <div class="images-6">
-            <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/11-img-Natual-white/6.Les Loges.png">
+        <hr>
+            
+        <!-- 6 -->
+        <!-- <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-6 text-center">
+                    <img src="" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="flags">
+                        <img src="" width="150" height="95">
+                    </div>
+                    <div class="production area mt-3">
+                        <h1>  </h1>
+                    </div>
+                    <div class="vintage m-auto mt-4">
+                        <h1>  </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1>  </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1>  </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h2>  </h2>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥ </h1>
+                    </div>
+                </div>
+            </div>
         </div>
-    <hr>
-    <!-- 7 -->
-        <div class="images-7">
-            <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/11-img-Natual-white/7.Marcel Deiss.png">
-        </div>
-    <hr>
+        <hr> -->
+
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        
+
     </div>
-    
 </body>
 </html>

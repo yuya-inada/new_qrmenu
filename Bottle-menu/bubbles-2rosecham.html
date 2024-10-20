@@ -2,17 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" width="480, user-scalable=no, maximum-scale=0.6667">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Bubbles page</title>
     
     <style>
         .bubbles{
-            margin : 5px 25px 25px 25px;
             text-transform: uppercase;
-            text-align: center;
             color: white;
-            font-size:small;
+            width: 100%;
+            max-width: 1200px; 
         }
         html,body{
             height:100%;
@@ -20,66 +19,268 @@
         body{
             background-color: #000;
         }
-        img{
-            max-width: 100%;
-            height: auto;
+        .nav{
+            color: white;
+            text-transform: uppercase;
+            font-size: larger;
+            font-weight:lighter;
         }
-        .resizeimage img{
-            width: 100%;
+        .navbar{
+            font-family: serif;
+            font-size: italic;
+        }
+        .img-responsive{
+            width: 250px;
+            height: 100%;
+        }
+        .details{
+            color: white;
+            font-family: serif;
+            font-size: italic;
+        }
+        .price{
+            text-align: end;
         }
         
     </style>
 
 </head>
-<body style="padding-top: 30px">
-    <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top p-0">
-        <a href="bubbles-0index.html" class="navbar-brand mt-2">
-                <h3 class="h1" style="padding-left: 50px"><button class="btn btn-outline-light p-2 m-0">Back</button></h3>
-        </a>
-        <div class="nav-items m-auto">    
-            <div class="bubbles navbar-brand pt-0 mt-3 ml-0 mb-0 mr-0" style="padding-left: auto">
-                <h1> rose champagne </h1>
-            </div>  
+<body style="padding-top: 170px">
+   
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark  fixed-top ">
+        <a class="navbar-brand" href="bubbles-0index.html" style="margin-left: 20px;"><button class="btn btn-outline-light btn-lg"><div class="display-1 mt-2 pb-2">Back</div></button></a>
+        <div class="collapse navbar-collapse justify-content-start">
+            <ul class="navbar-nav">
+                
+                <li class="nav-item-2 pt-1" style="margin-left: 30px">
+                    <div class="nav"><div class="display-1"> rose champagne </div></div>
+                </li>
+               
+            </ul>
         </div>
     </nav>
 
-    <div class="text-white text-center">
-        
-        <div class="container">
-            <!-- 1 -->
-                <div class="images-1">
-                    <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/3-img-rose-cham/0. Charies Mignon.png">
+    <div class="container-fluid">
+        <!-- 1 -->
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-1 text-center mb-5">
+                    <img src="3-img-rose-cham/1.Duval-Leroy.png" class="img-responsive">
                 </div>
-            <hr>
-            <!-- 2 -->
-                <div class="images-2">
-                    <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/3-img-rose-cham/1.J.M Labruyere Anthologie rose.png">
+            </div>
+            <div class="col-8 text-center text-capitalize">
+                <div class="details">
+                    <div class="flags">
+                        <img src="00-flags/France.jpg" width="150" height="95">
+                    </div>
+                    <div class="production area mt-3">
+                        <h2> france / champagne </h2>
+                    </div>
+                    <div class="vintage mt-4">
+                        <h1> N.V </h1>
+                    </div>
+                    <div class="english-winename">
+                        <h1> duval-Leroy / rosé brut prestige premier cru </h1>
+                    </div>
+                    <div class="japanese-winename mb-5">
+                        <h1> デュバル ルロワ </h1>
+                        <h1> ロゼ ブリュット プレステージュ プルミエ クリュ </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1> chardonnay </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1>¥17,000</h1>
+                    </div>
                 </div>
-            <hr>
-            <!-- 3 -->
-                <div class="images-3">
-                    <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/3-img-rose-cham/2.Duval-Leroy.png">
-                </div>
-            <hr>
-            <!-- 4 -->
-                <!-- <div class="images-4">
-                    <img src="">
-                </div>
-            <hr>
-             5 -->
-                <!-- <div class="images-5">
-                    <img src="">
-                </div>
-            <hr> -->
-            <!-- 6 -->
-                <!-- <div class="images-6">
-                    <img src="">
-                </div>
-            <hr>
-            7 --> 
+             </div>
         </div>
+        <hr>
+    
+            
+        <!-- 2 -->
+        <!-- <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-2 text-center mb-5">
+                    <img src="" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="flags">
+                        <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/00-flags/France.jpg" width="150" height="95">
+                    </div>
+                    <div class="production area mt-3">
+                        <h1>  </h1>
+                    </div>
+                    <div class="vintage m-auto mt-4">
+                        <h1>  </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1>  </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1>  </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1>  </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥ </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr> -->
 
+        <!-- 3 -->
+        <!-- <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-3 text-center mb-5">
+                    <img src="" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="flags">
+                        <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/00-flags/France.jpg" width="150" height="95">
+                    </div>
+                    <div class="production area mt-3">
+                        <h1>  </h1>
+                    </div>
+                    <div class="vintage m-auto mt-4">
+                        <h1>  </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1>  </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1>  </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1>  </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥ </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr> -->
+
+        <!-- 4 -->
+        <!-- <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-4 text-center mb-5">
+                    <img src="" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="flags">
+                        <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/00-flags/France.jpg" width="150" height="95">
+                    </div>
+                    <div class="production area mt-3">
+                        <h1>  </h1>
+                    </div>
+                    <div class="vintage m-auto mt-4">
+                        <h1>  </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1>  </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1>  </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1>  </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥ </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr> -->
         
+        <!-- 5 -->
+        <!-- <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-5 text-center mb-5">
+                    <img src="" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="flags">
+                        <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/00-flags/France.jpg" width="150" height="95">
+                    </div>
+                    <div class="production area mt-3">
+                        <h1>  </h1>
+                    </div>
+                    <div class="vintage m-auto mt-4">
+                        <h1>  </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1>  </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1>  </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1>  </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥ </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr> -->
+            
+        <!-- 6 -->
+        <!-- <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-6 text-center mb-5">
+                    <img src="" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="flags">
+                        <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/00-flags/France.jpg" width="150" height="95" >
+                    </div>
+                    <div class="production area mt-3">
+                        <h1>  </h1>
+                    </div>
+                    <div class="vintage m-auto mt-4">
+                        <h1>  </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1>  </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1>  </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h2>  </h2>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥ </h1>
+                    </div>
+                </div>
+            </div>
+        </div> 
+     <hr>-->
+
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+
+
     </div>
 </body>
 </html>

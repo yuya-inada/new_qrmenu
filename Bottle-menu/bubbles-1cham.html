@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" width="480, user-scalable=no, maximum-scale=0.6667">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <title>Bubbles page</title>
     
@@ -20,114 +20,483 @@
         body{
             background-color: #000;
         }
-        img{
-            max-width: 100%;
-            height: auto;
+        .nav{
+            color: white;
+            text-transform: uppercase;
+            font-size: larger;
+            font-weight:lighter;
         }
-        .resizeimage img{
-            width: 100%;
+        .navbar{
+            font-family: serif;
+            font-size: italic;
+        }
+        .img-responsive{
+            width: 250px;
+            height: 100%;
+        }
+        .details{
+            color: white;
+            font-family: serif;
+            font-size: italic;
+        }
+        .price{
+            text-align: end;
+        }
+        hr{
+            color: white;
         }
         
     </style>
 
 </head>
-<body style="padding-top: 30px">
-    <nav class="navbar navbar-expand navbar-dark bg-dark fixed-top p-0">
-        <a href="bubbles-0index.html" class="navbar-brand mt-2">
-                <h3 class="h1" style="padding-left: 50px"><button class="btn btn-outline-light p-2 m-0">Back</button></h3>
-        </a>
-        <div class="nav-items m-auto">    
-            <div class="bubbles navbar-brand pt-0 mt-3 ml-0 mb-0 mr-0" style="padding-left: auto">
-                <h1> champagne </h1>
-            </div>  
+<body style="padding-top: 170px">
+   
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark  fixed-top ">
+        <a class="navbar-brand" href="bubbles-0index.html" style="margin-left: 20px;"><button class="btn btn-outline-light btn-lg"><div class="display-1 mt-2 pb-2">Back</div></button></a>
+        <div class="collapse navbar-collapse justify-content-start">
+            <ul class="navbar-nav">
+                
+                <li class="nav-item-2 pt-1" style="margin-left: 30px">
+                    <div class="nav"><div class="display-1"> champagne </div></div>
+                </li>
+               
+            </ul>
         </div>
     </nav>
 
-    <div class="text-white text-center">
+    <div class="container-fluid">
         <!-- 1 -->
-        <div class="container">
-                <div class="images-1">
-                    <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/4-img-champagne/1.Maurice.png">
+    <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-1 text-center mb-5">
+                    <img src="1.Maurice.png" class="img-responsive">
                 </div>
-            <hr>
-            <!-- 2 -->
-                <div class="images-2">
-                    <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/4-img-champagne/2.Nicolas Feuillatte.png">
+            </div>
+            <div class="col-8 text-center text-capitalize">
+                <div class="details">
+                    <div class="vintage mt-4">
+                        <h1> N.V. </h1>
+                    </div>
+                    <div class="english-winename">
+                        <h1> maurice grumier / blanc de noirs brut </h1>
+                    </div>
+                    <div class="japanese-winename mb-5">
+                        <h1> モーリスグルミエ / ブランド ノワール ブリュット </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1> pinot meunier </h1>
+                        <h1> pinot noir </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1>¥9,000</h1>
+                    </div>
                 </div>
-            <hr>
-            <!-- 3 -->
-                <div class="images-3">
-                    <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/4-img-champagne/3.Pol Roger.png">
-                </div>
-            <hr>
-            <!-- 4 -->
-                <div class="images-4">
-                    <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/4-img-champagne/4.Roger Barnier.png">
-                </div>
-            <hr>
-            <!-- 5 -->
-                <div class="images-5">
-                    <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/4-img-champagne/5.Moet et Chandon.png">
-                </div>
-            <hr>
-            <!-- 6 -->
-                <div class="images-6">
-                    <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/4-img-champagne/6.Bourgeois-Diaz.png">
-                </div>
-            <hr>
-            <!-- 7 -->
-                <div class="images-7">
-                    <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/4-img-champagne/7.Renaissance.png">
-                </div>
-            <hr>
-            <!-- 8 -->
-                <div class="images-8">
-                    <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/4-img-champagne/8.Veuve Clicquot.png">
-                </div>
-            <hr>
-            <!-- 9 -->
-                <div class="images-9">
-                    <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/4-img-champagne/9.Agrapart.png">
-                </div>
-            <hr>
-            <!-- 10 -->
-                <div class="images-10">
-                    <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/4-img-champagne/10.Princes.png">
-                </div>
-            <hr>
-            <!-- 11 -->
-                <div class="images-11">
-                    <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/4-img-champagne/11.Fleury Pere et Fils.png">
-                </div>
-            <hr>
-            <!-- 11-2 -->
-                <div class="images-11-2">
-                    <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/4-img-champagne/11-2 Taittinger Brut Millesimes.png">
-                </div>
-            <hr>
-            <!-- 12 -->
-                <div class="images-12">
-                    <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/4-img-champagne/12.Philipponnat.png">
-                </div>
-            <hr>
-            <!-- 13 -->
-                <div class="images-13">
-                    <img src="/Users/inadayuuya/Documents/Programming/QR-code-bottle-menu-(Banksia)/Bottle-menu/4-img-champagne/13.Salon.png">
-                </div>
-            <hr>
-            <!-- 14 -->
-                <div class="images-14">
-                    <img src="">
-                </div>
-
-            <!-- 15 -->
+             </div>
         </div>
-        <br>
-        <div class="container text-center m-auto" id="back-top">
-            <a href="#"> <buttom class="btn btn-lg btn-outline-light">Back to top</buttom> </a>
-        </div>
+        <hr>
+    
+        <!-- 2 -->
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-2 text-center mb-5">
+                    <img src="4-img-champagne/2.Nicola.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="vintage m-auto mt-4">
+                        <h1> N.V. </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1> nicolas feuillatte / réserve exclusive brut </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> ニコラ フィアット </h1>
+                        <h1> レゼルヴ エクスクルーシヴ ブリュット </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h2> chardonnay </h2>
+                        <h2> pinot noir </h2>
+                        <h2> pinot meunier </h2>
+                    </div>
+                    <div class="price m-auto">
+                        <h1>¥11,000</h1>
+                    </div>
+                </div>
+            </div>
+        <hr>
 
+        <!-- 3 -->
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-3 text-center mb-5">
+                    <img src="4-img-champagne/3.Pol-Roger.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="vintage m-auto mt-4">
+                        <h1> N.V. </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1> pol roger / brut reserve </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> ポル ロジェ / ブリュット レゼルヴ </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h2> pinot noir </h2>
+                        <h2> chardonnay </h2>
+                        <h2> pinot meunier </h2>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥12,500 </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- 4 -->
+<!--         <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-4 text-center mb-5">
+                    <img src="" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="vintage m-auto mt-4">
+                        <h1> 2012 </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1> roger barnier / cuvee blanche </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> ロジャー バルニエ / キュベ ブランショ </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1> chardonnay </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥13,000 </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr> -->
         
+        <!-- 5 -->
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-5 text-center mb-5">
+                    <img src="4-img-champagne/4.Moet-et-Chandon.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="vintage m-auto mt-4">
+                        <h1> N.V. </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1> moet et chandon / brut imperial </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> モエ エ シャンドン / ブリュット アンペリアル </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h2> pinot niur </h2>
+                        <h2> pinot meunier </h2>
+                        <h2> chardonnay </h2>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥14,000 </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+            
+        <!-- 6 -->
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-6 text-center mb-5">
+                    <img src="4-img-champagne/5.BD'3C.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="vintage m-auto mt-4">
+                        <h1> N.V. </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h2> bourgeois-Diaz / BD'3C trois cepages brut nature </h2>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> ブルジョワ ディアズ </h1>
+                        <h1> BD'3C トロワ セパージュ ブリュット ナチュール </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h2> pinot noir </h2>
+                        <h2> chardonnay </h2>
+                        <h2> pinot meunier </h2>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥15,000 </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- 7 -->
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-7 text-center mb-5">
+                    <img src="4-img-champagne/6.Veuve.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="vintage m-auto mt-4">
+                        <h1> N.V. </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1> veuve clicquot / yellow label brut </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> ヴーヴ クリコ / イエロー ラベル ブリュット </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h2> pinot noir </h2>
+                        <h2> chardonnay </h2>
+                        <h2> pinot meunier </h2>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥15,000 </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- 8 -->
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-8 text-center mb-5">
+                    <img src="4-img-champagne/7.Renaissance.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="vintage m-auto mt-4">
+                        <h1> N.V </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h2> champagne de la renaissance / brut cru b de b </h2>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> シャンパーニュ ド ラ ルネサンス </h1>
+                        <h1> ブリュット グラン クリュ ブラン ド ブラン </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1> chardonnay </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥16,000 </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- 9 -->
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-9 text-center mb-5">
+                    <img src="8.Agrapart.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="vintage m-auto mt-4">
+                        <h1> N.V. </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h2> agrapart / 7 crus extra brut </h2>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h2> アグラパール / セット クリュ エクストラ ブリュット </h2>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1> chardonnay </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥17,000 </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- 10 -->
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-10 text-center mb-5">
+                    <img src="4-img-champagne/9.Princes.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="vintage m-auto mt-4">
+                        <h1> N.V. </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h2> de venoge princes / blanc de noirs </h2>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> ドゥ ヴノージェ プランス / ブラン ド ノワール </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1> pinot noir </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥18,000 </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- 11 -->
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-11 text-center mb-5">
+                    <img src="4-img-champagne/10.Fleury.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="vintage m-auto mt-4">
+                        <h1> 2010 </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h2> fleury pere et fils / extra brut cépages blanc </h2>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> フルーリー ペール エ フィス </h1>
+                        <h1> ブラン ド ブラン セパージュ ブラン </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1> chardonnay </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥20,000 </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- 12 -->
+<!--         <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-12 text-center mb-5">
+                    <img src="4-img-champagne/11.Taittinger.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="vintage m-auto mt-4">
+                        <h1> 2015 </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1> taittinger brut millesimes </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> デタンジェ ブリュット ミレジメ </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h2> pinot noir </h2>
+                        <h2> chardonnay </h2>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥22,000 </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr> -->
+
+        <!-- 13 -->
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-13 text-center mb-5">
+                    <img src="4-img-champagne/12.Philipponnat.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="vintage m-auto mt-4">
+                        <h1> 2015 </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1> philipponnat / sublime reserve sec </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> フィリポナ / シュブリム レゼルヴ セック </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h1> chardonnay </h1>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥23,000 </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <!-- 14 -->
+        <div class="row d-flex align-items-center mt-5">
+            <div class="col-4">
+                <div class="images-14 text-center mb-5">
+                    <img src="4-img-champagne/13.Salon.png" class="img-responsive">
+                </div>
+            </div>
+            <div class="col-8 text-center text-capitalize" >
+                <div class="details">
+                    <div class="vintage m-auto mt-4">
+                        <h1> 1985 </h1>
+                    </div>
+                    <div class="english-winename m-auto">
+                        <h1> salon </h1>
+                    </div>
+                    <div class="japanese-winename m-auto mb-5">
+                        <h1> サロン </h1>
+                    </div>
+                    <div class="variety m-auto">
+                        <h2> </h2>
+                        <h2> </h2>
+                        <h2>  </h2>
+                    </div>
+                    <div class="price m-auto">
+                        <h1> ¥240,000 </h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+
     </div>
 </body>
 </html>

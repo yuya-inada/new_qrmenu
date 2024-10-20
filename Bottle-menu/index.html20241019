@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" width="480, user-scalable=no, maximum-scale=0.6667">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+      <title>Glass wine list </title>
+      <style>
+        html,body{
+          height: auto;
+        }  
+        body{
+          background-color: black;
+        }
+        .container-fluid{
+          color:white;
+          font-family: serif;
+          font-size: italic;
+        }
+      </style>
+  </head>
+  <body style="padding-top: 100px;">
+
+    <div class="container-fluid" style="text-align: center;">
+
+      <div class="display-1 mb-5">
+        ~Champagne~
+      </div>
+
+<!--       <div class="mb-5">
+        <h1>Maurice Grumier Blanc de Noirs Brut NV</h1>
+        <h1>France Champagne</h1>
+        <h1>モーリスグルミエ ブランドノワール NV</h1>
+        <h1>¥1,800</h1>
+      </div>
+
+      <br>
+      <br> -->
+
+      <div class="mb-5">
+        <h1>Nicolas Feuillatte Réserve Exclusive Brut NV</h1>
+        <h1>France Champagne</h1>
+        <h1>ニコラ フィアット レゼルヴ エクスクルーシヴ ブリュット NV</h1>
+        <h1>¥1,800</h1>
+      </div>
+
+      <br>
+      <br>
+
+      <div class="display-1 mb-5">
+        ~Sparkring (pet nat)~
+      </div>
+
+      <div class="mb-5">
+        <h1>Explosion</h1>
+        <h1>Italy Veneto</h1>
+        <h1>Durella</h1>
+        <h1>エクスプロージョン</h1>
+        <h1>（微発砲自然派ワイン）</h1>
+        <h1>¥1,600</h1>
+      </div>
+      
+      <br>
+      <br>
+
+      <div class="display-1 mb-5">
+        ~Orange wine~
+      </div>
+
+      <div class="mb-5">
+        <h1>Markogianni Winery Vorias&Helios Orange</h1>
+        <h1>Greece Llia</h1>
+        <h1>Roditis</h1>
+        <h1>マルコヤニ ワイナリー ボレアス＆ヘリオス オレンジ</h1>
+        <h1>¥1,500</h1>
+      </div>
+
+      <br>
+      <br>
+
+<!--       <div class="display-1 mb-5">
+        ~Rose wine~
+      </div> -->
+
+<!--       <div class="mb-5">
+        <h1>Terra D'Aligi Cerasuolo D'Abruzzo DOC</h1>
+        <h1>Italy Abruzzo</h1>
+        <h1>Montepulciano</h1>
+        <h1>テッラ ダリージ チェラスオーロ ダブルッツォ DOC </h1>
+        <div class="price h1">¥1,300</div>
+      </div>
+
+      <br>
+      <br> -->
+
+    <div class="display-1 mb-5">
+        ~White wine~
+      </div>
+
+      <div class="display-1 mb-5">
+        ~White wine~
+      </div>
+
+      <div class="mb-5">
+        <h1>Wolfberger Vieilles Vignes</h1>
+        <h1>France Alsace</h1>
+        <h1>Riesling</h1>
+        <h1>ウルフベルジュ ヴィエイユ ヴィーニュ </h1>
+        <div class="price h1">¥1,600</div>
+      </div>
+    
+      <br>
+      <br>
+
+<!--       <div class="mb-5">
+        <h1>Frankland Estate</h1>
+        <h1>Australia Western Australia</h1>
+        <h1>Riesling</h1>
+        <h1>フランクランド エステート </h1>
+        <h1>¥1,500</h1>
+      </div>
+
+      <br>
+      <br> -->
+
+<!--       <div class="mb-5">
+        <h1>Ally Bay</h1>
+        <h1>Spain Jumilla</h1>
+        <h1>Sauvignon Blanc</h1>
+        <h1>アリーベイ </h1>
+        <h1>¥1,400</h1>
+      </div>
+
+      <br>
+      <br> -->
+
+      <div class="mb-5">
+        <h1>Greywacke</h1>
+        <h1>New Zealand Marlborough</h1>
+        <h1>Sauvignon Blanc</h1>
+        <h1>グレイワッキ マールボロ ソーヴィニヨン ブラン </h1>
+        <h1>¥1,500</h1>
+      </div>
+
+<!--       <br>
+      <br>
+
+      <div class="mb-5">
+        <h1>Maison Joseph Drouhin Laforet</h1>
+        <h1>France Bourgogne</h1>
+        <h1>Chardonnay</h1>
+        <h1>メゾン ジョゼフ ドルーアン ラフォーレ </h1>
+        <h1>¥1,800</h1>
+      </div>
+
+      <br>
+      <br> -->
+
+      <div class="mb-5">
+        <h1>Vina Marty Gin No Shizuku Goutte d'Argent Chardonnay</h1>
+        <h1>Chile Leyda Valley</h1>
+        <h1>Chardonnay</h1>
+        <h1>ヴィニャ マーティ ぎんの雫 グット ダルジャン シャルドネ </h1>
+        <h1>¥1,600</h1>
+      </div>
+
+      <br>
+      <br>
+
+      <div class="display-1 mb-5">
+        ~Red Wine~
+<!--       </div>
+
+      <div class="mb-5">
+        <h1>Chateau de Laborde Gevrey-Chambertin Vieilles Vignes </h1>
+        <h1>France Gevrey-Chambertin</h1>
+        <h1>Pinot Noir</h1>
+        <h1>C.H ラボルデ ジュヴレ シャンベルタン ヴィエユ ヴィ―ニュ </h1>
+        <h1>¥2,200</h1>
+      </div>
+
+      <br>
+      <br> -->
+
+      <div class="mb-5">
+        <h1>Erste Markgrafler Baden spatburgunder</h1>
+        <h1>Gamny Baden</h1>
+        <h1>Spatburgunder (Pinot Noir)</h1>
+        <h1>エルステ マークグレーフラー バーデン シュペートブルグンダー </h1>
+        <h1>¥1,400</h1>
+      </div>
+
+      <br>
+      <br>
+
+<!--       <div class="mb-5">
+        <h1>Resonance Vinyard </h1>
+        <h1>U.S.A Oregon</h1>
+        <h1>Pinot Noir</h1>
+        <h1>レゾナンス ヴィンヤード </h1>
+        <div class="price h1">¥2,000</div>
+      </div>
+
+      <br>
+      <br>
+ -->
+        
+<!--        <div class="mb-5">
+        <h1>Marchesi di Barolo Barbera d'Alba Ruvei</h1>
+        <h1>Italy Piemonte</h1>
+        <h1>Barbera</h1>
+        <h1>マルケージ ディ バローロ ダルバ ルヴェイ</h1>
+        <div class="price h1">¥1,600</div>
+      </div>
+
+      <br>
+      <br> -->
+
+      <div class="mb-5">
+        <h1>d'Arenberg Derelict Grenache </h1>
+        <h1>Australia South Australia</h1>
+        <h1>Grenache</h1>
+        <h1>ダーレンベルグ デレリクト グルナッシュ</h1>
+        <h1>¥1,600</h1>
+      </div>
+
+      <br>
+      <br>
+
+
+      <div class="mb-5">
+        <h1>Chateau Puygueraud</h1>
+        <h1>France Bordeaux　</h1>
+        <h1>Merlot, Cabernet Franc, Malbec</h1>
+        <h1>シャトー ピュイグロー</h1>
+        <h1>¥1,500</h1>
+      </div>
+
+      <br>
+      <br>
+
+<!--       <div class="display-1 mb-5">
+        ~Sweet Wine~
+      </div>
+
+      <div class="mb-5"> 
+        <h1>Carmes de Rieussec 2019 (45ml) </h1>
+        <h1>France Sauternes</h1>
+        <h1>Semillon, Sauvignon Blanc, Musucadet</h1>
+        <h1>カルム ド リューセック 2019(45ml) </h1>
+        <h1>¥1,800</h1>
+      </div>
+
+      <br>
+      <br> -->
+
+      <div class="display-1 mb-5">
+        ~Sherry~
+      </div>
+
+      <div class="mb-5"> 
+        <h1>1822 Moscatel Sherry (45ml) </h1>
+        <h1>Spain Andalucia</h1>
+        <h1>Moscatel</h1>
+        <h1>1822 モスカテル(45ml) </h1>
+        <h1>¥1,500</h1>
+      </div>
+
+      <br>
+      <br>
+
+      <div class="display-1 mb-5">
+        ~Brandy~
+      </div>
+
+      <div class="mb-5">
+        <h1>Hennessy V.S.O.P Fine Champagne(30ml) </h1>
+        <h1>France Cognac</h1>
+        <h1>ヘネシー V.S.O.P フィーヌ シャンパーニュ(30ml) </h1>
+        <h1>¥1,600</h1>
+      </div>
+
+      <br>
+      <br>
+
+      <div class="display-1 mb-5">
+        ~Calvados~
+      </div>
+
+      <div class="mb-5">
+        <h1>Chateau du Breuil 15YO(45ml) </h1>
+        <h1>France Normandy</h1>
+        <h1>シャトー デュブルイユ15年 </h1>
+        <h1>¥1,800</h1>
+      </div>
+
+      <br>
+      <br>
+    </div>  
+  </body>  
+</html>
