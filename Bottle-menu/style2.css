@@ -11,15 +11,6 @@ body{
   text-align: center;
 }
 
-.bottle-title {
-  width: 75%; /* 幅を75%に指定 */
-  margin: 0 auto; /* 水平方向の中央揃え */
-  text-align: center; 
-  border-width: 1px; /* ボーダーの太さ */
-  border-style: solid; /* ボーダーのスタイル（実線） */
-  border-color: #716f6f; /* ボーダーの色 */
-}
-
 .menu{
   color: white;
   text-decoration: underline #716f6f;
@@ -27,6 +18,18 @@ body{
 .menu:hover{
   color: #ddd;
 }
+
+/* header style */
+header{
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
 
 /* フッターのスタイル */
 footer {
