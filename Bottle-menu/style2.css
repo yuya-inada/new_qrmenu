@@ -4,7 +4,8 @@ body{
   color:white;
   font-style: italic;
   font-family: serif;
-} 
+  overflow-x: hidden;
+}
 
 .container-fluid{
   text-align: center;
@@ -13,22 +14,31 @@ body{
 .menu{
   color: white;
   text-decoration: underline #716f6f;
+  margin-bottom: 55px;
 }
 .menu:hover{
   color: #ddd;
 }
 
-/* header style */
+.menu-recommend{
+  color: white;
+  text-decoration: underline #716f6f;
+  margin-bottom: 80px;
+}
+.menu-recommend:hover{
+  color: #ddd;
+}
+
+/* インデックスページの header style */
 header {
   background-color: #333;
   position: fixed;
   top: 0;
   color: white;
   text-align: center;
-  padding: 15px 0;
+  padding: 15px 0 0 0;
   width: 100%;
   z-index: 1000;
-  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .header-container{
@@ -36,6 +46,7 @@ header {
   justify-content: center;
 }
 
+/* 各商材詳細ページのナビゲーションバーのスタイル */
 .navbar{
   background-color: #333;
 }
@@ -76,4 +87,28 @@ footer {
 
 .social-links a:hover {
   color: #ddd;
+}
+
+/* 画像のスタイル */
+.images{
+  border: 1px solid #333;
+}
+.img-responsive{
+  width: 250px;
+  height: 100%; 
+}
+
+/* 商材詳細のスタイル */
+/* .details{
+
+} */
+
+/* 価格スタイル */
+.price{
+  text-align: end;
+}
+/* フランス赤の産地タイトル */
+.bordeaux{
+  text-align: left;
+  position:fixed;
 }
