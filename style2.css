@@ -93,8 +93,8 @@ footer {
   border: 1px solid #333;
 }
 .img-responsive{
-  width: 250px;
-  height: 100%; 
+  width: 50%;
+  height: 25%; 
 }
 /* 価格スタイル */
 .price{
