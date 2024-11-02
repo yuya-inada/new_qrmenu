@@ -96,6 +96,14 @@ footer {
   width: 100%;
   height: 100%; 
 }
+/* 商材情報　details */
+.details-top p {
+  line-height: 1.2; /* 数値を小さくするほど行間が狭くなります */
+  margin: 0; /* 追加で余白があれば削除 */
+}
+.details-low p{
+  margin-top: 20px;
+}
 /* 価格スタイル */
 .price{
   text-align: end;
