@@ -43,7 +43,22 @@ header {
 
 .header-container{
   display: flex;
-  justify-content: center;
+  justify-content: left;
+  padding-left: 120px;
+  position: relative;
+}
+.back-button{
+  position: absolute;
+  left: 30px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  padding: 12px 16px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.back-button:hover{
+  color: gray;
 }
 
 /* 各商材詳細ページのナビゲーションバーのスタイル */
