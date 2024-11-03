@@ -24,7 +24,8 @@ body{
 
 .menu-recommend{
   color: white;
-  text-decoration: underline #716f6f;
+  text-decoration: underline;
+  text-decoration-color: #716f6f;
   margin-bottom: 80px;
 }
 .menu-recommend:hover{
