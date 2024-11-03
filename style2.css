@@ -30,6 +30,7 @@ body{
 }
 .menu-recommend:hover{
   color: #ddd;
+  text-decoration-color: #ddd; /* ホバー時の下線の色を変更 */
 }
 
 /* インデックスページの header style */
