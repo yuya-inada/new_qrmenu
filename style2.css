@@ -71,7 +71,12 @@ header {
   color: #fff; /* 適宜色を変更 */
   border: 1px solid #fff; /* 枠線の色 */
   border-radius: 5px;
-  cursor: pointer;
+}
+.back-button:hover{
+  background-color: #fff;
+  color: #333;
+  border: 1px solid #333;
+  border-radius: 5px;
 }
 
 /* タイトルのスタイル */
