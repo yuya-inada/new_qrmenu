@@ -43,8 +43,8 @@ header {
 
 .header-container{
   display: flex;
-  justify-content: left;
-  padding-left: 120px;
+  justify-content: center;
+  padding: 0;
   position: relative;
 }
 .back-button{
