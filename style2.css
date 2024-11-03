@@ -11,13 +11,15 @@ body{
   text-align: center;
 }
 
-.menu{
+.menu {
   color: white;
-  text-decoration: underline #716f6f;
+  text-decoration: underline;
+  text-decoration-color: #716f6f; /* 下線の色を指定 */
   margin-bottom: 55px;
 }
-.menu:hover{
+.menu:hover {
   color: #ddd;
+  text-decoration-color: #ddd; /* ホバー時の下線の色を変更 */
 }
 
 .menu-recommend{
